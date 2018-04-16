@@ -16,7 +16,7 @@ github_url: https://github.com/wananshine # ex. https://github.com/DONGChuan
 github_username: wananshine  # ex. DONGChuan
 description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
-repository: "/PingBlog.github.io/" # ex. DONGChuan/DONGChuan.github.io
+repository: "wananshine/PingBlog.github.io/" # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
@@ -39,7 +39,7 @@ lsi:         false
 excerpt_separator: "\n\n"
 
 source:      .
-destination: ./_site
+destination: ./_site/PingBlog.github.io
 
 quiet:    false
 defaults: []
