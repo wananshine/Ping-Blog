@@ -62,19 +62,19 @@ navs:
     label: Home
 
   -
-    href: /open-source
+    href: https://wananshine.github.io/PingBlog.github.io/open-source
     label: Open-Source
 
   -
-    href: /blog
+    href: https://wananshine.github.io/PingBlog.github.io/blog
     label: Blog
 
   -
-    href: /bookmark
+    href: https://wananshine.github.io/PingBlog.github.io/bookmark
     label: Bookmark
 
   -
-    href: /about
+    href: https://wananshine.github.io/PingBlog.github.io/about
     label: About
 
 # Sidebar to show popular repo
