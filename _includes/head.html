@@ -11,7 +11,7 @@
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" data-a="popopo" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
     <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="/bower_components/octicons/octicons/octicons.css">
     <link rel="stylesheet" href="/bower_components/hover/css/hover-min.css">
     <link rel="stylesheet" href="/bower_components/primer-markdown/dist/user-content.min.css">
-    <link rel="stylesheet" href="{{- /assets/css/syntax.css | relative_url -}}">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="{{- /assets/css/common.css | relative_url -}}">
+    <link rel="stylesheet" href="/assets/css/common.css">
 
     <!-- CSS set in page -->
     {% for css in page.css %}
