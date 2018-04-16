@@ -9,8 +9,8 @@
 title: I'm Ping # ex. I m Chuan
 name: Ping # ex. DONGChuan
 email: 1374161425@qq.com
-location: My location # ex. Nice, France
-company: MyCompany
+location: 深圳市 # ex. Nice, France
+company: 保密
 company_url: my_company_website
 github_url: https://github.com/wananshine # ex. https://github.com/DONGChuan
 github_username: wananshine  # ex. DONGChuan
@@ -61,9 +61,9 @@ navs:
     href: https://wananshine.github.io/PingBlog.github.io/
     label: Home
 
-  -
-    href: https://wananshine.github.io/PingBlog.github.io/open-source
-    label: Open-Source
+  # -
+  #   href: https://wananshine.github.io/PingBlog.github.io/open-source
+  #   label: Open-Source   #项目先隐藏
 
   -
     href: https://wananshine.github.io/PingBlog.github.io/blog
