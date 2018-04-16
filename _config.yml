@@ -49,7 +49,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: https://github.com/wananshine # ex. httpdongchuangithubio.disqus.com
+disque: https://wananshine.github.io/PingBlog.github.io/ # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
