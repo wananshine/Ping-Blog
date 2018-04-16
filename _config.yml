@@ -41,9 +41,9 @@ source:      .
 destination: ./_site
 
 quiet:    false
-defaults: ["/PingBlog.github.io/"]
+defaults: [/PingBlog.github.io/]
 
-exclude: ["/PingBlog.github.io/"]
+exclude: [/PingBlog.github.io/]
 
 kramdown:
   input: GFM
