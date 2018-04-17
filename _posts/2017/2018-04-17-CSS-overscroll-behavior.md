@@ -172,7 +172,7 @@ body {
 这篇文章通过几个简单的示例，演示了CSS的overscroll-behavior属性的特性。简单的讲，这个属性就是帮助我们能更好的控制元素滚动的默认行为。在实际的项目中借助于这个特性能帮助我们更好的改善用户体验
 
 
-> 原文: https://www.w3cplus.com/css/overscroll-behavior.html © w3cplus.com
+> [原文: https://www.w3cplus.com/css/overscroll-behavior.html © w3cplus.com](https://www.w3cplus.com/css/overscroll-behavior.html © w3cplus.com)
 
 ## Refs
 
