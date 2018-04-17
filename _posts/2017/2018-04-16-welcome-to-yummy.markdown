@@ -12,10 +12,10 @@ sublime text3 是一个轻量级的编辑器，在前端开发中我们经常使
 
 ## 安装配置
 
-### 1.'Package Control' 组件安装
+### 1.`Package Control` 组件安装
 
-'''
+```
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
-'''
 
+```
 
