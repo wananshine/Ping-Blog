@@ -22,13 +22,13 @@ tags: [css]
 
 ## 网易做法
 
-### 1 视口要如下设置
+* 1 视口要如下设置
 
 ```
  <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
 ```
  
-### 2 当`deviceWidth`大于设计稿的横向分辨率时，html的`font-size`始终等于横向分辨率/body元素宽：
+* 2 当`deviceWidth`大于设计稿的横向分辨率时，html的`font-size`始终等于横向分辨率/body元素宽：
 
 
 
@@ -59,22 +59,22 @@ document.querySelector('meta[name="viewport"]').setAttribute('content','initial-
 
 接下来要解决的问题是，元素的尺寸该如何计算，比如说设计稿上某一个元素的宽为150px，换算成rem应该怎么算呢？这个值等于设计稿标注尺寸/该设计稿对应的html的font-size。拿淘宝来说的，他们用的设计稿是750的，所以html的font-size就是75，如果某个元素时150px的宽，换算成rem就是150 / 75 = 2rem。总结下淘宝的这些做法：
 
-### 1 动态设置viewport的scale
+* 1 动态设置viewport的scale
 
 ```
 var scale = 1 / devicePixelRatio;
 document.querySelector('meta[name="viewport"]').setAttribute('content','initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
 ```
 
-### 2 动态计算html的font-size
+* 2 动态计算html的font-size
 
 ```
 document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';
 ```
 
-### 3 布局的时候，各元素的css尺寸=设计稿标注尺寸/设计稿横向分辨率/10
+* 3 布局的时候，各元素的css尺寸=设计稿标注尺寸/设计稿横向分辨率/10
 
-### 4 font-size可能需要额外的媒介查询，并且font-size不使用rem，这一点跟网易是一样的
+* 4 font-size可能需要额外的媒介查询，并且font-size不使用rem，这一点跟网易是一样的
 
 
 ## 比较网易与淘宝的做法
