@@ -138,7 +138,35 @@ body {
 
 ```
 
-原文: https://www.w3cplus.com/css/overscroll-behavior.html © w3cplus.com
+### 禁用炫光和回弹效果
+
+如果将`overscroll-behavior`属性的值设置为`none`时，可以禁用默认的滚动边界效果
+
+```
+
+body { 
+  /* 禁用默认的下拉刷新和边界效果,但是依然可以进行滑动导航 */ overscroll-behavior-y: none; 
+}
+
+```
+
+未使用`overscroll-behavior`之前的效果:
+
+[overscroll-behavior-9.gif](../../../../assets/images/overscroll-behavior-9.gif)
+
+使用`overscroll-behavior`之后的效果：
+
+[overscroll-behavior-10.gif](../../../../assets/images/overscroll-behavior-10.gif)
+
+
+如果想禁用左右滑动的手势导航，可以使用 `overscroll-behavior-x: none`。
+
+### 总结
+
+这篇文章通过几个简单的示例，演示了CSS的overscroll-behavior属性的特性。简单的讲，这个属性就是帮助我们能更好的控制元素滚动的默认行为。在实际的项目中借助于这个特性能帮助我们更好的改善用户体验
+
+
+> 原文: https://www.w3cplus.com/css/overscroll-behavior.html © w3cplus.com
 
 
 > In above example, we could also use `from` to represent `0%` and `to` to represent `100%`
