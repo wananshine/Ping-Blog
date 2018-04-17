@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "sublime text3 配置+++"
+title:  "Sublime Text 3 配置+++"
 date:   2018-04-16 13:25:35 +0200
 categories: Tool
 tags: [Tool]
