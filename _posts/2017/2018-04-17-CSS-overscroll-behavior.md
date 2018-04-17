@@ -10,7 +10,7 @@ tags: [css]
 `overscroll-behavior`属性允许用户在到达内容的顶部或底部时覆盖浏览器的默认行为 —— 溢出滚动行为。包括禁用移动端的下拉刷新（pull-to-refresh）、删除滚动的辉光（Overscroll Glow）和回弹效果Rubberbanding
 
 滚动是与页面交互的最基本的方式之一，但由于浏览器的怪异的默认行为，某些用户体验模式很难处理。比如我们常见的APP中的抽屉式导航，有大量的条目，用户或能不得不滚动浏览器。当它们到达底部时，溢出容器停止滚动，因为没有更多的内容可以使用。换句话说，我们期望的效果是：滚动到底部时，滚动停止，因为我们到达了“滚动边界”(Scroll Boundary)。但是事实上，在Web页面中滚动并不会停止，而是继续滚动抽屉后面的内容。比如下图这样的效果：
-![overscroll-behavior-1.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-1.gif)
+![overscroll-behavior-1.gif](../../../../assets/images/overscroll-behavior-1.gif)
 
 对于上图这样的行为，我们称之为滚动链接（Scroll Chaining）。当滚动内容时是浏览器的一种默认行为。通常情况下，默认情况很好，但有时也不可取，甚至出乎意料。某些应用程序可能希望用户在遇到滚动边界时提供不同的用户体验。
 
@@ -19,7 +19,7 @@ tags: [css]
 `pull-to-refresh`是由Facebook和Twitter等移动应用程序推广的一种直观的手势。而这种用户交互行为在移动端中经常使用的一个用户行为。而下接刷新又有**自定义下拉刷新**和**原生下拉刷新**两种。对于这两种下拉刷新又有何区别呢？我们用两张图来阐述，这样将会更清晰，也更易帮助我们理解两者之间的区别：
 
 **自定义下拉刷新:**
-![overscroll-behavior-2.gif](overscroll-behavior-2.gif)
+![overscroll-behavior-2.gif](../../../assets/images/overscroll-behavior-2.gif)
 
 **原生下拉刷新:**
 ![overscroll-behavior-3.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-3.gif)
@@ -30,7 +30,7 @@ tags: [css]
 
 ### overscroll-behavior的介绍
 
-* `overscroll-behavior`属性可以控制一个容器或页面body容器滚动时发生的默认行为。可以使用这个属性取消滚动链接、禁用、自定义下拉刷新，禁用在iOS上的回弹效果等。而且使用overscroll-behavior不会像前面提到其他方案一样对页面有性能影响。
+`overscroll-behavior`属性可以控制一个容器或页面body容器滚动时发生的默认行为。可以使用这个属性取消滚动链接、禁用、自定义下拉刷新，禁用在iOS上的回弹效果等。而且使用overscroll-behavior不会像前面提到其他方案一样对页面有性能影响。
 
 * `overscroll-behavior`属性有三个值：
 
