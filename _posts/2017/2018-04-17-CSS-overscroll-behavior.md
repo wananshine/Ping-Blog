@@ -19,7 +19,7 @@ tags: [css]
 `pull-to-refresh`是由Facebook和Twitter等移动应用程序推广的一种直观的手势。而这种用户交互行为在移动端中经常使用的一个用户行为。而下接刷新又有**自定义下拉刷新**和**原生下拉刷新**两种。对于这两种下拉刷新又有何区别呢？我们用两张图来阐述，这样将会更清晰，也更易帮助我们理解两者之间的区别：
 
 **自定义下拉刷新:**
-![overscroll-behavior-2.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-2.gif)
+![overscroll-behavior-2.gif](overscroll-behavior-2.gif)
 
 **原生下拉刷新:**
 ![overscroll-behavior-3.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-3.gif)
