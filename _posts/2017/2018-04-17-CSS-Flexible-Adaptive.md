@@ -100,5 +100,6 @@ document.documentElement.style.fontSize = document.documentElement.clientWidth /
 
 ```
 
-> 参考原文: [https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+> [参考原文: https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+
 > [参考原文: http://www.cnblogs.com/axl234/p/5156956.html](http://www.cnblogs.com/axl234/p/5156956.html)
