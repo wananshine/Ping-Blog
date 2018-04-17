@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vuejs动态表单
+title: vuejs 动态表单
 category: Vue
 tags: [Vue]
 ---
