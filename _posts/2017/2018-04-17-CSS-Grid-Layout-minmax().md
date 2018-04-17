@@ -30,7 +30,7 @@ minmax()函数接受六种类型的值：
 `minmax()`函数使用长度（length）也许是最简单的值，就是一个基本的长度。例如，这有一个简单的一行三列的网格。
 
 
-[default.png](../../../../assets/images/default.png)
+![default.png](../../../../assets/images/default.png)
 
 
 使用`minmax()`函数，可以指定网格中黄色单元格宽度保持在100px至200px之间。随着浏览器窗口的大小改变，这绝对值将会改变，但总是在这两个范围之内变化。
@@ -42,7 +42,7 @@ minmax()函数接受六种类型的值：
 }
 
 ```
-[length-1.gif](../../../../assets/images/length-1.gif)
+![length-1.gif](../../../../assets/images/length-1.gif)
 
 
 网格的第二列和第三列的收缩和扩展会根据网格容器剩余空间进行填充，但网格的第一列总是保持在100px和200px之间。
@@ -54,7 +54,7 @@ minmax()函数接受六种类型的值：
 `minmax()`函数除了可以使用length单位之外也可以使用百分比单位。如果我们把黄色网格设置了最大值为50%。表示黄色网格最大宽度是网格容器宽度的一半，但最大值不会有小于200px的值。
 
 
-[percentage.gif](../../../../assets/images/percentage.gif)
+![percentage.gif](../../../../assets/images/percentage.gif)
 
 
 无论浏览器视窗缩到多小，黄色网格宽度都不会小于200px。但是，当网格容器有足够的空间时，黄色网格宽度始终都会是容器宽度的一半。
@@ -150,7 +150,7 @@ minmax()函数接受六种类型的值：
 
 来看一个网格示例：
 
-[responsive.gif](../../../../assets/responsive.gif)
+![responsive.gif](../../../../assets/images/responsive.gif)
 
 网格中的每个列的最小宽度为200px。根据浏览器视窗大小，网格数量会根据共最合理的宽度进行变化。这里使用了CSS的minmax()函数。只需要使用两行CSS代码就可以实现：
 
