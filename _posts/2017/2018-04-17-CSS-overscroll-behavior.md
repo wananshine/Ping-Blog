@@ -19,10 +19,10 @@ tags: [css]
 `pull-to-refresh`是由Facebook和Twitter等移动应用程序推广的一种直观的手势。而这种用户交互行为在移动端中经常使用的一个用户行为。而下接刷新又有**自定义下拉刷新**和**原生下拉刷新**两种。对于这两种下拉刷新又有何区别呢？我们用两张图来阐述，这样将会更清晰，也更易帮助我们理解两者之间的区别：
 
 **自定义下拉刷新:**
-![overscroll-behavior-2.gif](../../../assets/images/overscroll-behavior-2.gif)
+![overscroll-behavior-2.gif](../../../../assets/images/overscroll-behavior-2.gif)
 
 **原生下拉刷新:**
-![overscroll-behavior-3.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-3.gif)
+![overscroll-behavior-3.gif](../../../../assets/images/overscroll-behavior-3.gif)
 
 很明显看出两者之间的区别，原生下拉刷新会刷新整个页面，正因为如此，很多时候使用的下拉刷新时，我们需要禁用原生的pull-to-refresh行为。
 
@@ -47,7 +47,7 @@ tags: [css]
 
 先来看一个这样的使用场景，我们有一个聊天窗口固定在页面的底部，这个聊天窗口是一个独立的组件，它与背后的内容是分离的。然而，由于滚动链接，当用户点击聊天窗口中的最后一条聊天消息时，背景的内容就会开始滚动。如下图这样的一个效果：
 
-![overscroll-behavior-4.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-4.gif)
+![overscroll-behavior-4.gif](../../../../assets/images/overscroll-behavior-4.gif)
 
 要改变这样的滚动行为，我们可以在聊天窗口的元素中使用`overscroll-behavior:contain`来改变：
 
@@ -61,7 +61,7 @@ tags: [css]
 
 这样做的本质就是聊天窗口和页面之间创建了一个隔离。最终的效果就是，当用户触摸到聊天窗口顶部或底部时，页面将保持不变。也正如前面所说的，窗口的滚动行为不会传播给其祖先元素。
 
-完整的Demo效果可以* [点击这里](https://ebidel.github.io/demos/chatbox.html)，如果你对源码感兴趣，可以 * [点击这里查看源码](https://github.com/ebidel/demos/blob/master/chatbox.html).
+完整的Demo效果可以[点击这里](https://ebidel.github.io/demos/chatbox.html)，如果你对源码感兴趣，可以[点击这里查看源码](https://github.com/ebidel/demos/blob/master/chatbox.html).
 
 
 除了上述场景之外，Modal弹框是非常常见的一个场景，是不是和我有同一样的感觉，在Modal弹框中滚动时，会出现这样的效果
@@ -69,7 +69,7 @@ tags: [css]
 同样的解决方案，使用overscroll-behavior:contain就是达到我们想要的效果，当Modal弹框滚动时，并不会影响body的行为：
 
 
-![overscroll-behavior-6.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-6.gif)
+![overscroll-behavior-6.gif](../../../../assets/images/overscroll-behavior-6.gif)
 
 ### 禁用下拉刷新pull-to-refresh
 
@@ -85,10 +85,10 @@ body {
 
 
 未使用overscroll-behavior之前的效果：
-![overscroll-behavior-7.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-7.gif)
+![overscroll-behavior-7.gif](../../../../assets/images/overscroll-behavior-7.gif)
 
 使用overscroll-behavior之后的效果：
-![overscroll-behavior-8.gif](https//wananshine.github.io/PingBlog.github.io/assets/images/overscroll-behavior-8.gif)
+![overscroll-behavior-8.gif](../../../../assets/images/overscroll-behavior-8.gif)
 
 ：
 * [整个示例的代码](https://github.com/ebidel/demos/blob/master/chatbox.html) ，下面是示例代码片段
