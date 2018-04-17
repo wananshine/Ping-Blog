@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 杂谈
+title: 前端 杂谈
 category: JavaScript
 tags: [JavaScript]
 ---
