@@ -71,4 +71,4 @@ Underscore.js是一个JavaScript库，提供一系列实用的工具函数（hel
 
 
 
-* 参考链接  [template-chooser](http://garann.github.io/template-chooser/)
+> 参考链接  [template-chooser](http://garann.github.io/template-chooser/)
