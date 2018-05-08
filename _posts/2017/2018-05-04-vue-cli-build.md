@@ -54,3 +54,15 @@ assetsPublicPath属性作用是指定编译发布的根目录，***‘/’指的
 ![vue-cli-build-04.png](../../../../assets/images/vue-cli-build-04.png)
 
 ![vue-cli-build-05.png](../../../../assets/images/vue-cli-build-05.png)
+
+
+
+## 总结
+
+1、npm run dev查看没有问题
+
+2、npm run build打包
+
+3、起一个服务（例如：python -m SimpleHTTPServer）然后查看index.html页面，发现路由会请求/first页面。
+
+4、解决的办法：将路由配置中history改为hash，将链接中/first改为/#/first。问题解决。
